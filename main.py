@@ -14,7 +14,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",  # Local development
-        "https://myanibuddy-frontend.vercel.app/",
+        "https://myanibuddy-frontend.vercel.app",
         "https://*.vercel.app",   # All Vercel deployments
         # Add your custom domain here later if you get one
     ],
